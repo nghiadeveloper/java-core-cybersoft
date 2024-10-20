@@ -1,0 +1,97 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/**
+		 * Có 2 loại vòng lặp chính:
+		 * 
+		 * - Không biết code chạy bao nhiêu lần nhưng biết được điều kiện dừng vòng lặp
+		 * 		+ while(điều kiện chạy lại code trong vòng lặp)
+		 * 		+ do...while(điều kiện chạy lại code trong vòng lặp): chạy code bên trong vòng lặp rồi mới xét điều kiện
+		 * 
+		 * - Biết được số lần chạy code 
+		 * 		+ for
+		 */
+
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("Vui lòng nhập điểm thi: ");
+//		int diemThi = scanner.nextInt();
+//		
+//		// Khi nào điểm thi < 5 thì chạy code trong while
+//		while(diemThi < 5) {
+//			System.out.print("Vui lòng nhập điểm thi: ");
+//			diemThi = scanner.nextInt();	
+//		}
+//		System.out.println("Điểm thi: " + diemThi);
+		
+		
+		
+//		// Cố tình vòng lặp vô tận
+//		while(true) {
+//			System.out.print("Vui lòng nhập điểm thi: ");
+//			int diemThi = scanner.nextInt();
+//			// Nếu điểm thi > 5 dùng break thoát khỏi vòng lặp
+//			if(diemThi > 5) {
+//				break;
+//			}
+//		}
+		
+		
+//		int diemThi;
+//		do {
+//			System.out.print("Vui lòng nhập điểm thi: ");
+//			diemThi = scanner.nextInt();
+//		} while(diemThi > 5);
+		
+		
+		
+//		for(int i = 0; i < 5 ; i++) {
+//			System.out.println("Hello Java " + i);
+//			
+//			for(int j = 0; j < 5 ; j++) {
+//				System.out.println("Hello Java " + "i = " + i + " - j = " + j);
+//			}
+//		}
+		
+		
+		
+		int secretNumber = (int)(Math.random() * 999 + 1);
+		int userGuess = 0;
+		System.out.println("Máy tính đã phát sinh một số từ 1 - 1000, hãy đoán số đó!");
+		while(true) {
+			System.out.println("Mời bạn nhập số: ");
+			userGuess = scanner.nextInt();
+			if(userGuess < secretNumber) {
+				System.out.println("Số bạn đoán bé hơn số bí mật. Hãy thử lại!");
+			} else if(userGuess > secretNumber) {
+				System.out.println("Số bạn đoán bé hơn số bí mật. Hãy thử lại!");
+			} else {
+				System.out.println("Chúc mừng bạn đã đoán đúng số bí mật " + secretNumber);
+				break;
+			}
+		}
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        
+	}
+
+}

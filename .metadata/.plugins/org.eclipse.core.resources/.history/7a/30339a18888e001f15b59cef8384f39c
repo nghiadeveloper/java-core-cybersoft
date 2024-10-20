@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/**
+		 * Có 2 loại vòng lặp chính:
+		 * 
+		 * - Không biết code chạy bao nhiêu lần nhưng biết được điều kiện dừng vòng lặp
+		 * 		+ while(điều kiện chạy lại code trong vòng lặp)
+		 * 		+ do...while(điều kiện chạy lại code trong vòng lặp)
+		 * 
+		 * - Biết được số lần chạy code 
+		 * 		+ for
+		 */
+
+		for() {
+			
+		}
+	}
+
+}
