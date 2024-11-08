@@ -8,10 +8,10 @@ public class NhanVien {
 	LocalDate ngaySinh;
 
 	public NhanVien(String tenNhanVien, int tuoi) {
-		this.tenNhanVien = tenNhanVien;
+		this.tenNhanVien = tenNhanVien; // <=> NhanVien.tenNhanVien = tenNhanVien
 		this.tuoi = tuoi;
 	}
-	
+
 	public NhanVien() {
 
 	}
