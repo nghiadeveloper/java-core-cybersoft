@@ -7,7 +7,7 @@ public class Main {
 		/**
 		 * 3) Tính trừu tượng
 		 * - Những đối tượng nào là trừu tượng là chúng ta tưởng tượng ra nó
-		 * - Mà những cái tưởng tượng thì chỉ kế thừa được nhưng không sử được
+		 * - Mà những cái tưởng tượng thì chỉ kế thừa được nhưng không sử dụng được
 		 * - Mục đích của abstract chỉ sử dụng để kế thừa
 		 * 
 		 * - abstract: biến nguyên class thành lớp trừu tượng
