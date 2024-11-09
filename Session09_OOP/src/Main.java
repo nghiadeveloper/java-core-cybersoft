@@ -4,18 +4,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		/**
-		 * Bản chất của OOP là gom nhóm biến
-		 * 
-		 * Cú pháp: 
-		 * class tenClass {
-		 * 		// Khai báo biến -> Thuộc tính
-		 * }
-		 * 
-		 * Khởi tạo (sủ dụng) đối tượng
-		 * DataType_tenDoiTuong tenBien = new TenDoiTuong();
-		 * 
-		 * this = tên dối tượng
-		 * Overload (nạp chồng): Hàm cùng tên nhung khác nhau về số lượng tham số hoặc kiểu dữ liệu
+		 * - Bản chất của OOP là gom nhóm biến
+		 * - Khởi tạo (sủ dụng) đối tượng: DataType_tenDoiTuong tenBien = new TenDoiTuong();
+		 * - this = tên dối tượng
+		 * - Overload (nạp chồng): Hàm cùng tên nhung khác nhau về số lượng tham số hoặc kiểu dữ liệu
+		 */
+		
+		/**
+		 * 4 tính chất của OOP
+		 * - Tính kế thừa (inheritance)
+		 * - Tính đóng gói (encapsulation)
+		 * - Tính trừu tượng (abstract) 
+		 * - Tính đa hình (polymorphism)
 		 */
 		
 //		BaiViet baiViet1 = new BaiViet();
