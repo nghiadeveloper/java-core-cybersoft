@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="NhanVien"/>
     <fullyQualifiedTypeName name="cybersoft.NhanVien"/>
+    <fullyQualifiedTypeName name="cybersoft.TinhNang2"/>
+    <fullyQualifiedTypeName name="cybersoft.TinhNang"/>
+    <fullyQualifiedTypeName name="cybersoft.TruongNhom"/>
 </qualifiedTypeNameHistroy>
