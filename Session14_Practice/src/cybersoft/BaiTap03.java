@@ -28,7 +28,7 @@ public class BaiTap03 {
 
 		// Rút tiền từ tài khoản
 		account.withdraw(200000.0);
-        account.displayBalance();
+		account.displayBalance();
 
 		// Cố gắng rút nhiều hơn số dư hiện tại
 		account.withdraw(1500000.0);

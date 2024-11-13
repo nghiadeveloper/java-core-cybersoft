@@ -37,17 +37,17 @@ public class BankAccount {
 			System.out.println("Số tiền nạp vào phải lớn hơn 0 VNĐ.");
 		}
 	}
-	
+
 	public void withdraw(double amount) {
-        if (amount <= balance && amount > 0) {
-            this.balance -= amount;
-            System.out.println("Đã rút tiền: " + amount);
-        } else if (amount > this.balance) {
-            System.out.println("Số dư trong tài khoản không đủ để rút tiền.");
-        } else {
-            System.out.println("Số tiền cần rút phải lớn hơn 0 VNĐ.");
-        }
-    }
+		if (amount <= balance && amount > 0) {
+			this.balance -= amount;
+			System.out.println("Đã rút tiền: " + amount);
+		} else if (amount > this.balance) {
+			System.out.println("Số dư trong tài khoản không đủ để rút tiền.");
+		} else {
+			System.out.println("Số tiền cần rút phải lớn hơn 0 VNĐ.");
+		}
+	}
 
 	public void displayBalance() {
 		System.out.println("Số dư tài khoản: " + this.balance);

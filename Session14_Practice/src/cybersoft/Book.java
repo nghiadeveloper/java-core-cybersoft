@@ -7,7 +7,6 @@ public class Book {
 	private boolean status;
 
 	public Book(String title, String author, boolean status) {
-		super();
 		this.title = title;
 		this.author = author;
 		this.status = status;

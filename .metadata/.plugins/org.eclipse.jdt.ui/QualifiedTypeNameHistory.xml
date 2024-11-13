@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="BaiViet"/>
     <fullyQualifiedTypeName name="TruongNhom"/>
     <fullyQualifiedTypeName name="TruongPhong"/>
@@ -12,4 +11,8 @@
     <fullyQualifiedTypeName name="cybersoft.TinhNang2"/>
     <fullyQualifiedTypeName name="cybersoft.TinhNang"/>
     <fullyQualifiedTypeName name="cybersoft.TruongNhom"/>
+    <fullyQualifiedTypeName name="cybersoft.BankAccount"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="cybersoft.Book"/>
+    <fullyQualifiedTypeName name="cybersoft.Library"/>
 </qualifiedTypeNameHistroy>
