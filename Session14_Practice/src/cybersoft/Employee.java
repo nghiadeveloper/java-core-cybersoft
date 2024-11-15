@@ -1,12 +1,12 @@
 package cybersoft;
 
-public class Employee {
+public class Employee implements NhanVien {
 
 	private String name;
 	private int age;
-	private double salary;
+	private int salary;
 
-	public Employee(String name, int age, double salary) {
+	public Employee(String name, int age, int salary) {
 		this.name = name;
 		this.age = age;
 		this.salary = salary;
@@ -31,14 +31,15 @@ public class Employee {
 		this.age = age;
 	}
 
-	public double getSalary() {
+	public int getSalary() {
 		return salary;
 	}
 
-	public void setSalary(double salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 
+	@Override
 	public void displayInfo() {
 		System.out.println("Tên nhân viên: " + this.name);
 		System.out.println("Tuổi: " + this.age);

@@ -15,4 +15,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="cybersoft.Book"/>
     <fullyQualifiedTypeName name="cybersoft.Library"/>
+    <fullyQualifiedTypeName name="cybersoft.Employee"/>
 </qualifiedTypeNameHistroy>

@@ -18,7 +18,7 @@ public class BaiTap05 {
 		Employee employee = new Employee();
 		employee.setName("Nguyễn Văn A");
 		employee.setAge(25);
-		employee.setSalary(3950000.0);
+		employee.setSalary(3950000);
 		employee.displayInfo();
 
 		System.out.println();
@@ -26,7 +26,7 @@ public class BaiTap05 {
 		Manager manager = new Manager();
 		manager.setName("Nguyễn Hiếu Nghĩa");
 		manager.setAge(25);
-		manager.setSalary(5000000.0);
+		manager.setSalary(50000000);
 		manager.setDepartment("Phòng IT");
 	
 		System.out.println("Thông tin quản lý:");
