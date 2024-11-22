@@ -11,7 +11,7 @@ public class BaiTap02 {
 		 * 		. Tạo lớp Player có các thuộc tính name, position, skill_level, và phương thức play() (trừu tượng, chưa định nghĩa).
 		 * 		. Tạo các lớp con như Forward, Midfielder, và Defender kế thừa từ Player, mỗi lớp sẽ định nghĩa lại phương thức play() để mô tả chiến thuật chơi riêng của từng vị trí.
 		 * 		. Tạo lớp Team để quản lý danh sách các cầu thủ, thêm phương thức display_team() để hiển thị danh sách cầu thủ theo từng vị trí, và total_skill_level() để tính tổng điểm kỹ năng của đội.
-		 * 		. o	Tạo một đội bóng với các cầu thủ ở từng vị trí khác nhau và hiển thị đội hình cùng tổng điểm kỹ năng của đội
+		 * 		. Tạo một đội bóng với các cầu thủ ở từng vị trí khác nhau và hiển thị đội hình cùng tổng điểm kỹ năng của đội
 		 */
 
 		Team team = new Team();
